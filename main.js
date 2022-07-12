@@ -1,6 +1,3 @@
-'use strict';
-
-
 const clearForm = (address) => {
     document.getElementById('rua').value = ''
     document.getElementById('bairro').value = ''
@@ -26,7 +23,7 @@ const validCep = (cep) => cep.length == 8 && isNumber(cep)
 const searchCep = async() => {
     clearForm()
     const cep = document.getElementById('cep').value
-    const url = `http://viacep.com.br/ws/${cep}/json/`
+    const url = `https://viacep.com.br/ws/${cep}/json/`
     if(validCep(cep)){
         const data = await fetch(url)
         const address = await data.json()
