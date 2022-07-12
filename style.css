@@ -37,3 +37,17 @@ footer h3{
     text-align: center;
     color: #72B8AA;
 }
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputText{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
