@@ -49,5 +49,12 @@ footer h3{
     justify-content: space-between;
 }
 
+.inputForm .inputText input{
+    background-color: #53596E;
+    border: 3px solid #72B8AA;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
 
 
