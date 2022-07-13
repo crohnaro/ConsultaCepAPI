@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #4B4453;
+    background-image: linear-gradient(to right,#4B4453, #597A9E);
 }
 
 #forms{
@@ -18,24 +18,13 @@ body{
     align-items: center;
     min-height: calc(100vh - 50px);
     gap: 100px;
-    color: #72B8AA;
+    color: #29BBD7;
 }
 
 #forms div h1{
+    font-size: 50px;
    text-align: center;
-   color: #72B8AA;
-}
-footer{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #53596E;
-}
-footer h3{
-    text-align: center;
-    color: #72B8AA;
+   color: #29BBD7;
 }
 
 .inputForm{
@@ -52,10 +41,22 @@ footer h3{
 
 .inputForm .inputText input{
     background-color: #53596E;
-    border: 3px solid #72B8AA;
+    border: 1px solid #29BBD7;
     border-radius: 5px;
     color: whitesmoke;
     text-align: center;
 }
 
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #53596E;
+}
+footer h3{
+    text-align: center;
+    color: #29BBD7;
+}
 
