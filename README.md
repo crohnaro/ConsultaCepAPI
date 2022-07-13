@@ -4,7 +4,7 @@
 </div>
 
 <div align = "center" >
- <img align = "center" alt="Me" widht"200px" src="https://im4.ezgif.com/tmp/ezgif-4-d49baf16ef.gif">
+ <img align = "center" alt="Me" widht"200px" src="https://raw.githubusercontent.com/crohnaro/ConsultaCepAPI/master/img/projectscreen.png">
  </div>
 
 <div align="center"> 
