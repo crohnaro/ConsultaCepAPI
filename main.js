@@ -18,7 +18,7 @@ const fillForms = (address) => {
 
 const isNumber = (number) => /^[0-9]+$/.test(number)
 
-const validCep = (cep) => cep.length == 8 && isNumber(cep)
+const validCep = (cep) => cep.length == 9 && isNumber(cep)
 
 const searchCep = async() => {
     clearForm()
